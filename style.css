@@ -1,0 +1,128 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	background-color: blabck;
+}
+
+.container {
+	width: 960px;
+	margin: auto;
+	height: 1300px;
+	font-family: sans-serif;
+	background-color: white;
+
+}
+.clear {
+	clear: both;
+}
+
+.header img{
+	width: 960px;
+	height: 200px;
+
+}
+.header h1 {
+	position: absolute;
+	font-size: 45px;
+	margin-left: 20px;
+	margin-top: 130px;
+	color: pink;
+}
+
+.menu {
+	height: 50px;
+	background-color: orchid;
+
+}
+.menu ul li {
+	display: inline-block;
+	font-size: 27px;
+	font-family: sans-serif;
+	color: black;
+	line-height: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 230px;
+}
+
+.menu ul li:hover {
+	background-color: magenta;
+}
+
+.konten .kiri {
+	border: 1px solid white;
+	height: 1045px;
+	width: 600px;
+	float: left;
+	background-color: plum;
+}
+.kiri h1 {
+	text-align: center;
+	margin-top: 40px;
+	color: #DAA520;
+
+}
+.kiri img {
+	width: 170px;
+	height: 110px;
+	border: 1px solid white;
+	margin-left: 20px;
+	margin-top: 30px;
+	
+}
+.kiri p {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.kiri h2{
+	margin-left: 30px;
+	margin-right: 30px;
+	font-size: 30px;
+}
+
+.kiri h3 {
+	margin-top: 90px;
+	font-size: 37px;
+	text-align: center;
+	color: #5f89ac;
+}
+	
+	
+.konten .kanan {
+	border: 1px solid white;
+	height: 1045px;
+	width: 358px;
+	font-family: sans-serif;
+	margin-left: 600px;
+	background-color: rgb(185, 111, 185);
+}
+.kanan h1 {
+	font-family: sans-serif;
+	margin-top: 30px;
+	text-align: center;
+}
+.kanan ul li {
+	margin-top: 60px;
+	list-style: none;
+	padding-left: 40px;
+	line-height: 36px;
+	font-size: 21px;
+}
+.footer {
+	height: 60px;
+	background-color: grey;
+	margin: auto;
+	width: 960px;
+
+}
+.footer h1 {
+	text-align: center;
+	color: white;
+	font-family: arial;
+	font-size: 20px;
+	line-height: 60px;
+	clear: both;
+}
